@@ -1,0 +1,561 @@
+
+
+@font-face {
+	font-family: 'FavoritB';
+	src: url('fonts/Favorit_Light.eot');
+	src: local('☺'), url('fonts/inputmonolight.ttf') format('woff'), url('fonts/Favorit_Light.ttf') format('truetype'), url('fonts/Favorit_Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: 'FavoritBold';
+	src: url('fonts/Favorit_Medium.eot');
+	src: local('☺'), url('fonts/Favorit_Medium.woff') format('woff'), url('fonts/Favorit_Medium.ttf') format('truetype'), url('fonts/Favorit_Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} */
+
+@font-face {
+	font-family: 'FavoritB';
+	src: url('fonts/Favorit_Regular.eot');
+	src: local('☺'), url('fonts/Favorit_Regular.woff') format('woff'), url('fonts/Favorit_Regular.ttf') format('truetype'), url('fonts/Favorit_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Favorit';
+	src: url('fonts/cooper/CooperBT-Light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+html {
+  /* cursor: url(assets/rocket.cur), auto; */
+
+}
+body, html {
+  margin: 0;
+	height: 100vh;
+	width: 100vw;
+	/* cursor: url(assets/rocket.png), auto; */
+
+
+
+}
+
+.background{
+	background-repeat: repeat-y;
+    background-image: url("assets/pixelu2.jpg");
+width: 600vw;
+left: -0vw;
+top: -0vh;
+z-index: 0;
+position: relative;
+-webkit-transition: all 1.5s ease;
+-moz-transition: all 1.5s ease;
+-o-transition: all 1.5s ease;
+transition: all 1.5s ease;
+
+}
+
+.smallestb{
+width: 400vw;
+left:00vw;
+top: 0vh;
+z-index: 0;
+position: relative;
+
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+.mediumb{
+width: 320vw;
+left: 0vw;
+top: 0vh;
+z-index: 0;
+position: relative;
+
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+
+.largeb{
+
+
+	width: 250vw;
+	left: 0vw;
+	top: 0vh;
+	z-index: 0;
+	position: relative;
+
+	    -webkit-transition: all 1.5s ease;
+	    -moz-transition: all 1.5s ease;
+	    -o-transition: all 1.5s ease;
+	    transition: all 1.5s ease;
+	}
+
+
+.info {
+
+}
+
+
+@media screen and (max-width: 60em) {
+  .resumetext {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-left: 2vw;
+  }}
+
+a {color: inherit;
+
+}
+
+a:visited{
+  color: inherit;
+}
+
+a:hover {
+  cursor: url(cursorrotate.png), auto;
+}
+
+
+.para1 {
+  text-align: left;
+  margin-left: ;
+  width: 26vw;
+  font-family: Favorit;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  overflow-y: scroll;
+  font-kerning: normal;
+
+  height: auto;
+  overflow-y: scroll;
+  padding: 2vw;
+  top: 1%;
+  position: absolute;
+	bottom: 20vh;
+
+}
+
+@media screen and (max-width: 45em) {
+  .para1 {
+    font-size: .8rem;
+    line-height: 1rem;
+
+  }}
+
+
+  .para2{
+    text-align: left;
+    margin-left: 2vw;
+    width: 26vw;
+    font-family: Favorit;
+    font-size: .6rem;
+    line-height: .8rem;
+    overflow-y: scroll;
+    font-kerning: normal;
+    bottom: 10px;
+    position: absolute;
+		display: none;
+    white-space: pre-line;
+  }
+
+
+
+.buttonopen {
+  width: 5vw;
+  height: 100vw;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  float: left;
+  border: none;
+  outline: none;
+  z-index: 40;
+  cursor: e-resize;
+  /* cursor: url(cursor4.png),auto; */
+
+
+}
+
+.buttonclose {
+
+  color:black;
+  font-size: 2rem;
+  font-family: Favorit;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  text-align: right;
+  border-top: 3px solid black;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #F0EFEF;
+  outline:none;
+  cursor: inherit;
+  display: none;
+  height: 47px;
+  width: 100%;
+}
+
+.buttonclose2 {
+
+  color:black;
+  font-size: 2rem;
+  font-family: Favorit;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  text-align: right;
+  border-top: 3px solid black;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: white);
+  outline:none;
+  cursor: inherit;
+  display: none;
+  height: 47px;
+  width: 100%;
+}
+
+
+  .popup {
+    font-family: favorit;
+    top: 1rem;
+    /* display: inline-block; */
+    top:0;
+    height: 100%;
+  }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+.infolayer {
+
+  background-color: none;
+	color: white;
+  top: 25vh;
+	bottom: 25vh;
+  display: inline-block;
+  position: fixed;
+  width: 22vw;
+
+  z-index: 20;
+  border: 1px solid white;
+  box-sizing: border-box;
+
+  margin-left: -4px;
+	left: 5vw;
+  overflow: hidden;
+  float: left;
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+.earthbox {
+	width: 25vw;
+	left: 37.50vw;
+	top: 25vh;
+	background-color: none;
+	position: fixed;
+
+
+}
+
+.earth{ width: 100%;
+cursor: pointer;
+}
+
+
+.p1{
+	width: 0vw;
+	position: fixed;
+	top: 50vh;
+	left: 55vw;
+}
+
+.p2 {
+	width: 0vw;
+	position: fixed;
+	top: 50vh;
+	left:55vw;
+}
+
+.v1{
+	width: 0vw;
+	position: fixed;
+	top: 50vh;
+	left: 55vw;
+}
+
+.v2{
+	width: 0vw;
+	position: fixed;
+	top: 50vh;
+	left: 50vw;
+}
+
+.vd1{
+	width: 0vw;
+	position: fixed;
+	top: 50vh;
+	left: 55vw;
+}
+a:hover {
+	cursor: pointer;
+}
+
+.sh1:hover {
+	box-shadow: 1px 1px 500px 30px yellow;
+	cursor: pointer;
+}
+
+.sh2:hover {
+	box-shadow: 1px 1px 500px 30px blue;
+	cursor: pointer;
+}
+
+.sh3:hover {
+	box-shadow: 1px 1px 500px 30px red;
+	cursor: pointer;
+}
+
+
+.v1gif{
+	width: 50vw;
+	position: fixed;
+	top: 20vh;
+	left: 65vw;
+	display: none;
+}
+
+#subtitle{
+}
+
+.header1{
+	text-align: left;
+	margin-left: 2vw;
+	width: 26vw;
+	font-family: Favorit;
+	font-size: 1rem;
+	line-height: 1rem;
+	overflow-y: scroll;
+	font-kerning: normal;
+
+	position: fixed;
+	padding-bottom: 2vw;
+
+}
+
+.header2{
+	text-align: center;
+	left: 20vw;
+	top: 12vh;
+	width: 60vw;
+z-index: 100;
+	font-family: Favorit;
+	font-size: 7rem;
+	line-height: 1rem;
+	position: fixed;
+	display: none;
+
+}
+
+.ye{color: yellow}
+.bl{color: blue}
+.ma{color: red}
+
+.smallest{
+	z-index: 50;
+	position: fixed;
+	top: 5vh;
+	left: 5vh;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.smallest:hover{
+	box-shadow: 10px 10px 50px white;
+}
+
+
+.medium{
+	z-index: 50;
+	position: fixed;
+	top: 40vh;
+	left: 25vh;
+	width: 12px;
+	height: 12px;
+	background-color: white;
+	cursor: pointer;
+
+}
+
+.medium:hover{
+	background-color: yellow;
+	box-shadow: 10px 10px 50px white;
+}
+
+
+
+.large{
+	z-index: 50;
+	position: fixed;
+	top: 50vh;
+	left: 75vw;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	cursor: pointer;
+
+}
+
+.large:hover{
+	box-shadow: 10px 10px 50px white;
+}
+
+
+
+
+
+
+
+
+
+.pixelone{
+		z-index: 50;
+		position: fixed;
+		top: 70vh;
+		left: -750vw;
+		width: 2px;
+		height: 2px;
+		background-color: white;
+	animation: pone 30s infinite alternate ease-in-out;
+
+}
+
+@-webkit-keyframes pone{
+  from {
+    left: 3000px;
+		top: 10vh;
+    background-color: white;
+  }}
+
+
+	.pixeltwo{
+			z-index: 50;
+			position: fixed;
+			top: -80vh;
+			left: 75vw;
+			width: 2px;
+			height: 2px;
+			background-color: white;
+		animation: ptwo 35s infinite alternate ease-in-out;
+
+	}
+
+	@-webkit-keyframes ptwo{
+	  from {
+	    left: 2000px;
+			top: 2000px;
+	    background-color: white;
+	  }}
+
+		.pixelthree{
+				z-index: 50;
+				position: fixed;
+				top: 800vh;
+				left: 75vw;
+				width: 2px;
+				height: 2px;
+				background-color: white;
+			animation: pthree 30s infinite alternate ease-in-out;
+
+		}
+
+		@-webkit-keyframes pthree{
+			from {
+				left: 0;
+				top: -2000px;
+				background-color: white;
+			}}
+
+
+		.firststep{
+			font-family: favorit;
+			/* font-style: italic; */
+
+			color: white;
+			position: fixed;
+			top: 10px;
+			left: 10px;
+			font-size: 1.2rem;
+			width: auto;
+			z-index: 100;
+			display: none;
+		}
+
+		.underline{
+border-bottom: 2px solid white;
+		}
+
+		.spacecrafts1 {
+			display: none;
+			z-index: 100;
+			position: fixed;
+}
+
+
+		.spacecrafts2 {
+			display: none;
+			z-index: 100;
+			position: fixed;
+		}
+
+		.spacecrafts3 {
+			display: none;
+			z-index: 100;
+			position: fixed;
+		}
+
+		.pbd{
+			color: white;
+			text-align: left;
+			font-size: 1.1rem;
+			line-height: 1.4rem;
+			font-family: Favorit;
+			font-weight: lighter;
+			position: fixed;
+			z-index: 10;
+			width: 27vw;
+			left: 5vw;
+			height: 80vh;
+			top: 10vh;
+		
+		}
