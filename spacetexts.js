@@ -27,12 +27,16 @@ $("#start").click(function(){
 $("#p1").click(function(){
   $(".header2").html('Pioneer10');
   $(".para1").html(`
-  <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://en.wikipedia.org/wiki/Pioneer_plaque', 'popup', 'height=800, width=1600'); return false;">Pioneer Plaque</a>
-  <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.nasa.gov/centers/ames/missions/archive/pioneer10-11.html', 'popup', 'height=800, width=1600'); return false;">Pioneer Overview</a>
+    <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.space.com/17651-pioneer-10.html', 'popup', 'height=800, width=1600'); return false;">Mission Background</a>
+    <br><br>
+
   <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://history.nasa.gov/SP-349/ch2.htm', 'popup', 'height=800, width=1600'); return false;">An essay planning</a>
   <br><br>
-  <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.space.com/17651-pioneer-10.html', 'popup', 'height=800, width=1600'); return false;">Mission Background</a>
+  <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://en.wikipedia.org/wiki/Pioneer_plaque', 'popup', 'height=800, width=1600'); return false;">Pioneer Plaque</a>
   <br><br>
+
 
 
 `);
@@ -42,9 +46,13 @@ $("#p1").click(function(){
 
 $("#v1").click(function(){
   $(".para1").html(`
-    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://en.wikipedia.org/wiki/Pioneer_plaque', 'popup', 'height=800, width=1600'); return false;">Pioneer Plaque</a>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.nasa.gov/centers/ames/missions/archive/pioneer10-11.html', 'popup', 'height=800, width=1600'); return false;">Pioneer Overview</a>
+    <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.space.com/17651-pioneer-10.html', 'popup', 'height=800, width=1600'); return false;">Mission Background</a>
     <br><br>
     <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.reddit.com/r/space/comments/6nifbp/i_am_frank_drake_creator_of_the_drake_equation/', 'popup', 'height=800, width=1600'); return false;">Frank Drake is answering questions on Reddit</a>
+    <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://en.wikipedia.org/wiki/Pioneer_plaque', 'popup', 'height=800, width=1600'); return false;">Pioneer Plaque</a>
     <br><br>
 
 `);
@@ -69,7 +77,7 @@ $("#p2").click(function(){
     <br><br>
     <a href="https://soundcloud.com/nasa/sets/golden-record-greetings-to-the" onclick="window.open('https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/sounds/', 'popup', 'height=800, width=1600'); return false;">Sounds on the record</a>
     <br><br>
-    <a href="https://soundcloud.com/nasa/sets/golden-record-greetings-to-the" onclick="window.open('https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/greetings/', 'popup', 'height=800, width=1600'); return false;">Sounds on the record</a>
+    <a href="https://soundcloud.com/nasa/sets/golden-record-greetings-to-the" onclick="window.open('https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/greetings/', 'popup', 'height=800, width=1600'); return false;">Greetings on the record</a>
     <br><br>
     <a href="https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/" onclick="window.open('https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/', 'popup', 'height=800, width=1600'); return false;">The laughter</a>
     <br><br>
@@ -97,7 +105,7 @@ $("#v2").click(function(){
     <br><br>
     <a href="https://soundcloud.com/nasa/sets/golden-record-greetings-to-the" onclick="window.open('https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/sounds/', 'popup', 'height=800, width=1600'); return false;">Sounds on the record</a>
     <br><br>
-    <a href="https://soundcloud.com/nasa/sets/golden-record-greetings-to-the" onclick="window.open('https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/greetings/', 'popup', 'height=800, width=1600'); return false;">Sounds on the record</a>
+    <a href="https://soundcloud.com/nasa/sets/golden-record-greetings-to-the" onclick="window.open('https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/greetings/', 'popup', 'height=800, width=1600'); return false;">Greetings on the record</a>
     <br><br>
     <a href="https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/" onclick="window.open('https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/', 'popup', 'height=800, width=1600'); return false;">The laughter</a>
     <br><br>
@@ -112,6 +120,12 @@ $("#v2").click(function(){
 $("#vd1").click(function(){
   $(".para1").html(`
 
+    <a href="https://www.nasa.gov/mission_pages/newhorizons/overview/index.html', 'popup', 'height=800, width=1600'); return false;">Mission Background</a>
+    <br><br>
+    <a href="https://www.nasa.gov/mission_pages/newhorizons/launch/index.html', 'popup', 'height=800, width=1600'); return false;">Launch Information</a>
+    <br><br>
+    <a href="https://www.nasa.gov/mission_pages/newhorizons/spacecraft/index.html', 'popup', 'height=800, width=1600'); return false;">Probe Information</a>
+    <br><br>
     <a href="https://voyager.jpl.nasa.gov/golden-record/" onclick="window.open('https://www.youtube.com/watch?v=EJxwWpaGoJs', 'popup', 'height=800, width=1600'); return false;">Pluto Curiosity</a>
     <br><br>
 
@@ -142,6 +156,9 @@ $("#p12").click(function(){
     <br><br>
     <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.youtube.com/watch?v=pKQG_kYLL0Y', 'popup', 'height=800, width=1600'); return false;">The Jupiter Odyssey</a>
     <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://astro.swarthmore.edu/astro61_spring2014/papers/sagan_science_1972.pdf', 'popup', 'height=800, width=1600'); return false;">A Message from Earth</a>
+    <br><br>
+
 
     `);
   $(".header2").html('Pioneer10');
@@ -152,6 +169,10 @@ $("#p22").click(function(){
   $(".para1").html(`
 
     <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.youtube.com/watch?v=pKQG_kYLL0Y', 'popup', 'height=800, width=1600'); return false;">The Jupiter Odyssey</a>
+    <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.nytimes.com/1990/02/25/us/pioneer-11-is-reported-to-leave-solar-system.html', 'popup', 'height=800, width=1600'); return false;">Leaving the Solar System</a>
+    <br><br>
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://astro.swarthmore.edu/astro61_spring2014/papers/sagan_science_1972.pdf', 'popup', 'height=800, width=1600'); return false;">A Message from Earth</a>
     <br><br>
 
       `);
@@ -181,7 +202,7 @@ $("#v22").click(function(){
     <br><br>
     <a href="https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/" onclick="window.open('https://www.youtube.com/watch?v=SmIPMhKyiY0', 'popup', 'height=800, width=1600'); return false;">The Launch</a>
     <br><br>
-    <a href="https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/" onclick="window.open('https://www.youtube.com/watch?v=aalfNIvQaJ4', 'popup', 'height=800, width=1600'); return false;">How long can we talk></a>
+    <a href="https://www.theatlantic.com/technology/archive/2017/06/solving-the-mystery-of-whose-laughter-is-on-the-golden-record/532197/" onclick="window.open('https://www.youtube.com/watch?v=aalfNIvQaJ4', 'popup', 'height=800, width=1600'); return false;">How long can we talk?</a>
     <br><br>
 
 
@@ -195,7 +216,9 @@ $("#vd12").click(function(){
 
     <a href="https://voyager.jpl.nasa.gov/golden-record/" onclick="window.open('https://www.youtube.com/watch?v=6l4kr36TzQ4', 'popup', 'height=800, width=1600'); return false;">Pluto Discoveries</a>
     <br><br>
-    <a href="https://voyager.jpl.nasa.gov/golden-record/" onclick="window.open('https://www.nytimes.com/interactive/2018/12/31/science/new-horizons-ultima-thule-flyby.html', 'popup', 'height=800, width=1600'); return false;">Blob Discoveries</a>
+    <a href="https://www.nasa.gov/feature/a-prehistoric-puzzle-in-the-kuiper-belt', 'popup', 'height=800, width=1600'); return false;">Ultima Tule Explanation</a>
+    <br><br>
+    <a href="https://voyager.jpl.nasa.gov/golden-record/" onclick="window.open('https://www.nytimes.com/interactive/2018/12/31/science/new-horizons-ultima-thule-flyby.html', 'popup', 'height=800, width=1600'); return false;">Ultima Thule Discoveries</a>
     <br><br>
     <a href="https://voyager.jpl.nasa.gov/golden-record/" onclick="window.open('https://science.nasa.gov/science-news/science-at-nasa/2010/18jun_newhorizons', 'popup', 'height=800, width=1600'); return false;">Exotic Wake-up</a>
     <br><br>
