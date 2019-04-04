@@ -27,6 +27,8 @@ $("#start").click(function(){
 $("#p1").click(function(){
   $(".header2").html('Pioneer10');
   $(".para1").html(`
+  <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://en.wikipedia.org/wiki/Pioneer_plaque', 'popup', 'height=800, width=1600'); return false;">Pioneer Plaque</a>
+  <br><br>
   <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://history.nasa.gov/SP-349/ch2.htm', 'popup', 'height=800, width=1600'); return false;">An essay planning</a>
   <br><br>
   <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.space.com/17651-pioneer-10.html', 'popup', 'height=800, width=1600'); return false;">Mission Background</a>
@@ -40,6 +42,8 @@ $("#p1").click(function(){
 
 $("#v1").click(function(){
   $(".para1").html(`
+    <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://en.wikipedia.org/wiki/Pioneer_plaque', 'popup', 'height=800, width=1600'); return false;">Pioneer Plaque</a>
+    <br><br>
     <a href="https://history.nasa.gov/SP-349/ch2.htm/" onclick="window.open('https://www.reddit.com/r/space/comments/6nifbp/i_am_frank_drake_creator_of_the_drake_equation/', 'popup', 'height=800, width=1600'); return false;">Frank Drake is answering questions on Reddit</a>
     <br><br>
 
