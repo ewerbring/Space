@@ -7,6 +7,7 @@ $('#smallest').click(function() {
    $('.spacecrafts2').hide();
    $('.spacecrafts3').hide();
    $(".gifs").animate({opacity: 0},500);
+    $(".new").animate({opacity: 0},500);
    $('#smallest').addClass('underline');
    $('#medium').removeClass('underline');
    $('#large').removeClass('underline');
@@ -21,6 +22,7 @@ $('.earth').click(function() {
    $('.spacecrafts2').hide();
    $('.spacecrafts3').hide();
    $(".gifs").animate({opacity: 0},500);
+    $(".new").animate({opacity: 0},500);
 $(".pbd").animate({opacity: 0},500);
   $('#smallest').addClass('underline');
    $('#medium').removeClass('underline');
@@ -37,6 +39,7 @@ $('#medium').click(function() {
    $('.spacecrafts1').hide();
    $('.spacecrafts3').hide();
    $(".gifs").animate({opacity: 0},500);
+    $(".new").animate({opacity: 0},500);
    $('#medium').addClass('underline');
    $('#smallest').removeClass('underline');
    $('#large').removeClass('underline');
@@ -51,6 +54,8 @@ $('#large').click(function() {
    $('.spacecrafts1').hide();
    $('.spacecrafts2').hide();
    $(".gifs").animate({opacity: 0.6},1500);
+   $(".new").animate({opacity: 0.9},1500);
+
     $('#large').addClass('underline');
    $('#medium').removeClass('underline');
    $('#smallest').removeClass('underline');
@@ -63,6 +68,11 @@ $('#large').click(function() {
 $('.earth').click(function() {
    $('.firststep').show();
    $('.spacecrafts1').show();
+});
+
+
+$('.news').click(function() {
+   $('.aboutbox').show();
 });
 
 
@@ -135,28 +145,10 @@ $("#large").click(function(){
 
 
 
-$('.buttonopen').click(function() {
-   $('.buttonclose').show();
+$('#edit').click(function() {
+   $('.stories').show();
 });
 
-$('.buttonopen').click(function() {
-   $('.buttonopen').hide();
-});
-
-$('.buttonopen').click(function() {
-   $('.buttonclose').show();
-});
-
-
-
-
-$('.buttonclose').click(function() {
-   $('.buttonopen').show();
-});
-
-$('.buttonclose').click(function() {
-   $('.buttonclose, #info').hide();
-});
 
 
 $('#p13').click(function() {
@@ -189,6 +181,9 @@ $(document).mouseup(function (e)
     container.push($('#v1stories'));
     container.push($('#v2stories'));
     container.push($('#nhstories'));
+    container.push($('.aboutbox'));
+    container.push($('.stories'));
+    container.push($('.pbd'));
 
     $.each(container, function(key, value) {
         if (!$(value).is(e.target) // if the target of the click isn't the container...
@@ -210,28 +205,28 @@ $(document).mouseup(function (e)
 
 //
 //
-// function handle_mousedown(e){
-//     window.my_dragging = {};
-//     my_dragging.pageX0 = e.pageX;
-//     my_dragging.pageY0 = e.pageY;
-//     my_dragging.elem = this;
-//     my_dragging.offset0 = $(this).offset();
-//     function handle_dragging(e){
-//         var left = my_dragging.offset0.left + (e.pageX - my_dragging.pageX0);
-//         var top = my_dragging.offset0.top + (e.pageY - my_dragging.pageY0);
-//         $(my_dragging.elem)
-//         .offset({top: top, left: left});
-//     }
-//     function handle_mouseup(e){
-//         $('body')
-//         .off('mousemove', handle_dragging)
-//         .off('mouseup', handle_mouseup);
-//     }
-//     $('body')
-//     .on('mouseup', handle_mouseup)
-//     .on('mousemove', handle_dragging);
-// }
-// $('.pbd').mousedown(handle_mousedown);
-//
-// $('.earth').mousedown(handle_mousedown);
-// $('.schooltext').mousedown(handle_mousedown);
+function handle_mousedown(e){
+    window.my_dragging = {};
+    my_dragging.pageX0 = e.pageX;
+    my_dragging.pageY0 = e.pageY;
+    my_dragging.elem = this;
+    my_dragging.offset0 = $(this).offset();
+    function handle_dragging(e){
+        var left = my_dragging.offset0.left + (e.pageX - my_dragging.pageX0);
+        var top = my_dragging.offset0.top + (e.pageY - my_dragging.pageY0);
+        $(my_dragging.elem)
+        .offset({top: top, left: left});
+    }
+    function handle_mouseup(e){
+        $('body')
+        .off('mousemove', handle_dragging)
+        .off('mouseup', handle_mouseup);
+    }
+    $('body')
+    .on('mouseup', handle_mouseup)
+    .on('mousemove', handle_dragging);
+}
+$('.pbd').mousedown(handle_mousedown);
+
+$('.stories').mousedown(handle_mousedown);
+$('.schooltext').mousedown(handle_mousedown);

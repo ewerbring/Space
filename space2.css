@@ -139,15 +139,13 @@ a:hover {
   background-color: none;
 	color: white;
   top: 19vh;
-	bottom: 10vh;
+	bottom: 15vh;
   display: inline-block;
   position: fixed;
   width: 22vw;
-
   z-index: 20;
   border: 1px solid white;
   box-sizing: border-box;
-
   margin-left: -4px;
 	left: 5vw;
   overflow: scroll;
@@ -161,6 +159,8 @@ a:hover {
 	top: 25vh;
 	background-color: none;
 	position: fixed;
+	z-index: 10;
+
 }
 
 .earth{ width: 100%;
@@ -637,3 +637,60 @@ z-index: 100;
 			top: vh;
 
 		}
+
+		.news {
+			z-index: 5;
+			position: fixed;
+			left: 150vw;
+			width: 3vw;
+			top: 80vh;
+			cursor: pointer;
+
+		animation: newsani 80s infinite alternate ease-in-out;
+		}
+
+
+		@-webkit-keyframes newsani{
+			from {
+				left: -500vw;
+				top: 90vh;
+			}}
+
+
+			.aboutbox{
+				color: yellow;
+				text-align: left;
+				font-size: 1.1rem;
+				line-height: 1.4rem;
+				font-family: Favorit;
+				font-weight: lighter;
+				position: fixed;
+				z-index: 10;
+				width: 20vw;
+				left: 75vw;
+				height: 80vh;
+				top: 10vh;
+				display: none;
+
+			}
+
+			#edit{
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			.stories{
+				display: none;
+				width: 30vw;
+				height: 40vh;
+				top: 10vh;
+				left: -5vw;
+				position: relative;
+				overflow: visible;
+				z-index: 800;
+
+				-ms-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	-o-transform: scale(0.75);
+	-webkit-transform: scale(0.75);
+	transform: scale(0.75);
+			}
